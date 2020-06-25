@@ -2,7 +2,7 @@
 set /p string= 
 set line=%string%
 
-IF "%1"=="a-z" goto uppercase
+IF "%1"=="'a-z'" goto uppercase
 
 :lowercase
 	SET line=%line:A=a%
